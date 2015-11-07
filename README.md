@@ -9,22 +9,16 @@ Les plugins gulp installés sont les suivants :
 - [browser-sync](https://www.npmjs.com/package/browser-sync)
 
 # Installation :
-Pour pouvoir utiliser la configuration il est nécessaire d'installer [nodejs](https://nodejs.org/), puis de taper les commandes suivantes dans une console :
-`npm install -g gulp`
+Pour pouvoir utiliser la configuration il est nécessaire d'installer [nodejs](https://nodejs.org/), puis de taper la commande suivante dans une console :
+`npm install -g gulp`. Vous disposerez alors de la commande `gulp`
 
-Vous disposerez alors de la commande `gulp`
+Cloner le dépôt dans le répertoire voulu, et lancer la commande `npm install` dans ce même répertoire.
 
-Cloner le dépôt dans le répertoire voulu, et lancer la commande suivante dans ce même répertoire :
-```
-npm install
-```
+# Configuration :
+A FAIRE
 
 # Utilisation :
-Compilation des fichiers .scss :
-```
-gulp sass
-```
-Compilation automatique des fichiers .scss :
-```
-gulp sass:watch
-```
+- pour compiler les fichier .scss et rafraichir le navigateur : 'gulp' 
+- pour compiler les fichiers .scss manuellement : `gulp sass`
+- pour compiler automatiquement les fichiers .scss : `gulp sass:watch`
+- pour rafraichir le navigateur à chque modification des fichiers : `gulp server`
