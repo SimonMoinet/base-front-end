@@ -15,7 +15,19 @@ Pour pouvoir utiliser la configuration il est nécessaire d'installer [nodejs](h
 Cloner le dépôt dans le répertoire voulu, et lancer la commande `npm install` dans ce même répertoire.
 
 # Configuration :
-1. browser-sync
+Les modifications à réaliser sont dans le fichier [gulpfile.js](gulpfile.js)
+
+1. Grâce à browser-sync vous pouvez soit démarrer un serveur http depuis n'importe quel dossier, soit l'utiliser comme un proxy si vous possédez un serveur (wamp, ...).
+- Si vous voulez le mode serveur :
+```
+var server_proxy = "";
+var base_dir = "CHEMIN DU REPERTOIRE";
+```
+- Si vous voulez le mode proxy :
+```
+var server_proxy = "SERVEUR";
+var base_dir = "";
+```
 
 # Utilisation :
 - pour compiler les fichier .scss et rafraichir le navigateur : `gulp` 
