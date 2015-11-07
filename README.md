@@ -1,5 +1,9 @@
 # Base
 
+Les plugins gulp installés sont les suivants :
+- [gulp-sass](https://www.npmjs.com/package/gulp-sass)
+- gulp- 
+
 # Installation :
 
 ```
