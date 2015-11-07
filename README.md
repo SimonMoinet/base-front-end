@@ -2,20 +2,17 @@
 
 # Installation :
 
-'''
-npm install
+'''npm install
 '''
 
 # Utilisation :
 
 - Compilation des fichiers .scss :
 
-'''
-gulp sass
+'''gulp sass
 '''
 
 - Compilation automatique des fichiers .scss :
 
-'''
-gulp sass:watch
+'''gulp sass:watch
 '''
