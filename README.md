@@ -18,6 +18,7 @@ Cloner le dépôt dans le répertoire voulu, et lancer la commande `npm install`
 Les modifications à réaliser sont dans le fichier [gulpfile.js](gulpfile.js)
 
 1. Grâce à browser-sync vous pouvez soit démarrer un serveur http depuis n'importe quel dossier, soit l'utiliser comme un proxy si vous possédez un serveur (wamp, ...).
+
 - Si vous voulez le mode serveur :
 ```
 var server_proxy = "";
