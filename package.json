@@ -1,0 +1,25 @@
+{
+  "name": "base-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonMoinet/base-front-end.git"
+  },
+  "author": "Simon Moinet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonMoinet/base-front-end/issues"
+  },
+  "homepage": "https://github.com/SimonMoinet/base-front-end#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-size": "^2.0.0"
+  }
+}
