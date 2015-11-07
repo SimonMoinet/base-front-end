@@ -15,10 +15,10 @@ Pour pouvoir utiliser la configuration il est nécessaire d'installer [nodejs](h
 Cloner le dépôt dans le répertoire voulu, et lancer la commande `npm install` dans ce même répertoire.
 
 # Configuration :
-A FAIRE
+1. browser-sync
 
 # Utilisation :
-- pour compiler les fichier .scss et rafraichir le navigateur : 'gulp' 
+- pour compiler les fichier .scss et rafraichir le navigateur : `gulp` 
 - pour compiler les fichiers .scss manuellement : `gulp sass`
 - pour compiler automatiquement les fichiers .scss : `gulp sass:watch`
 - pour rafraichir le navigateur à chque modification des fichiers : `gulp server`
